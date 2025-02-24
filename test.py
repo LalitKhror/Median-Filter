@@ -1,5 +1,5 @@
-# generate_lena_raw.py
-# Creates a dummy lena.raw file (256x256 RGB, 8-bit per channel)
+# generate_test_raw.py
+# Creates a dummy test.raw file (256x256 RGB, 8-bit per channel)
 
 with open("test.raw", "wb") as f:
     for row in range(256):        # 256 rows
@@ -11,4 +11,4 @@ with open("test.raw", "wb") as f:
             # Write 3 bytes per pixel (RGB)
             f.write(bytes([red, green, blue]))
 
-print("lena.raw created successfully! Size: 256x256x3 = 196,608 bytes")
+print("test.raw created successfully! Size: 256x256x3 = 196,608 bytes")
