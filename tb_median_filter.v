@@ -22,8 +22,8 @@
 `define ROW 256                // Define the number of rows in the image (256)
 `define COL 256                // Define the number of columns in the image (256)
 `define width 8                // Define the bit width of each pixel component (8 bits)
-`define IN_FILE_NAME  "test.raw" // Define input file name for raw image data
-`define OUT_FILE_NAME "test_f.raw" // Define output file name for filtered image data
+`define IN_FILE_NAME  "lena.raw" // Define input file name for raw image data
+`define OUT_FILE_NAME "lena_f.raw" // Define output file name for filtered image data
 // -----------------------------------------------------------------------------
 // -----------------------------------------------------------------------------
 module tb_median_filter;       // Testbench module for the median_filter_3x3 design
