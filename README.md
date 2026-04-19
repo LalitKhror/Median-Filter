@@ -298,9 +298,9 @@ Median_Filter
 ├── docs
 │   └── architecture.png
 │
-├── Vivado Project
-│   └── Median_Filter.zip
-└── 
+└── Vivado Project
+    └── Median_Filter.zip
+
 ```
 
 ---
