@@ -242,7 +242,7 @@ Median_Filter
 │   ├── pipeline.png
 │   └── architecture.png
 │
-├── vivado_project
+├── Vivado Project
 │   └── Median_Filter.zip
 └── 
 ```
