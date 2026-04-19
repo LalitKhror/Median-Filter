@@ -2,7 +2,7 @@
 
 ![Verilog](https://img.shields.io/badge/Verilog-HDL-blue)
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![FPGA](https://img.shields.io/badge/FPGA-Artix--7-green)
+![FPGA](https://img.shields.io/badge/FPGA-Artix--7-200T-green)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 ![Domain](https://img.shields.io/badge/Domain-FPGA%20%7C%20Image%20Processing-green)
 
