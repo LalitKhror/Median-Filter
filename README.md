@@ -208,28 +208,35 @@ noise_add.py
 ```
 Median_Filter
 │
-├── input_image
+├── Input Image
 │   └── lena_256x256.png
 │
-├── verilog_files
+├── Verilog Files
 │   ├── median_filter.v
-│   └── tb_median_filter.v
+│   ├── tb_median_filter.v
+│   └── fsm_diagram.png
 │
-├── python_scripts
+├── Python Scripts
 │   ├── png_to_mem.py
 │   ├── mem_to_png.py
 │   └── noise_add.py
 │
-├── results
-│   ├── original.png
-│   ├── noisy_5.png
-│   ├── filtered_output.png
-│   └── noisy_filtered_output.png
+├── Results
+│   ├── 5 Percent Noise
+│   │   ├── lena_256x256.mem
+│   │   ├── lena_256x256.png
+│   │   ├── lena_256x256_output.mem
+│   │   └── lena_256x256_output.png
+│   │
+│   └── Original Image
+│       ├── lena_256x256.mem
+│       ├── lena_256x256.png
+│       ├── lena_256x256_output.mem
+│       └── lena_256x256_output.png
 │
 ├── docs
 │   ├── pipeline.png
-│   ├── architecture.png
-│   └── fsm_diagram.png
+│   └── architecture.png
 │
 └── vivado_project
 ```
