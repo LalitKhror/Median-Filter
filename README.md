@@ -60,10 +60,6 @@ PNG → MEM → FPGA (Verilog) → MEM → PNG
 
 ## 🔄 Processing Pipeline
 
-👉 **Pipeline Diagram**
-
-<img width="900" src="docs/pipeline.png"/>
-
 ### Flow:
 
 PNG Image → MEM Conversion → Verilog Simulation → Output MEM → PNG Reconstruction
@@ -74,7 +70,7 @@ PNG Image → MEM Conversion → Verilog Simulation → Output MEM → PNG Recon
 
 👉 **FSM Diagram**
 
-<img width="700" src="docs/fsm_diagram.png"/>
+<img width="700" src="Verilog Files/fsm_diagram.png"/>
 
 ### FSM States:
 
