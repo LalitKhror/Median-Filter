@@ -296,7 +296,6 @@ Median_Filter
 │       └── lena_256x256_output.png
 │
 ├── docs
-│   ├── pipeline.png
 │   └── architecture.png
 │
 ├── Vivado Project
