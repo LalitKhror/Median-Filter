@@ -221,6 +221,10 @@ Median_Filter
 │   ├── mem_to_png.py
 │   └── noise_add.py
 │
+├── MATLAB
+│   ├── MedianFilter.m
+│   └── AdaptiveMedianFilter.m
+│
 ├── Results
 │   ├── 5 Percent Noise
 │   │   ├── lena_256x256.mem
@@ -238,7 +242,9 @@ Median_Filter
 │   ├── pipeline.png
 │   └── architecture.png
 │
-└── vivado_project
+├── vivado_project
+│   └── Median_Filter.zip
+└── 
 ```
 
 ---
