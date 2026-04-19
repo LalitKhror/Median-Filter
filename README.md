@@ -43,6 +43,50 @@ Design and verify a **hardware-based median filter pipeline**:
 PNG → MEM → FPGA (Verilog) → MEM → PNG
 
 ---
+---
+
+## 🖥️ Simulation Instructions
+
+### 📌 Target Device
+- FPGA Device: **Xilinx Artix-7**
+- Part: **xc7a200tsbg484-1**
+
+---
+
+### ▶️ Steps to Run Simulation
+
+1. Convert the input image using:
+```
+png_to_mem.py
+```
+
+2. Copy the generated file:
+```
+lena_256x256.mem
+```
+
+to the Vivado simulation directory:
+
+```
+C:\Users\username\median_filter\median_filter.sim\sim_1\behav\xsim
+```
+
+3. Run the simulation in Vivado (XSIM)
+
+4. After simulation completes, the output file:
+
+```
+lena_256x256_output.mem
+```
+
+will be generated in the **same directory**.
+
+5. Convert the output `.mem` file back to image using:
+```
+mem_to_png.py
+```
+
+---
 
 ## 🧠 System Architecture
 
@@ -92,7 +136,10 @@ OUT = Median(line1, line2, line3)
 
 ---
 
-## 📂 Image Specifications
+## 📂 Image Specifications & Input Image
+- `lena_256x256.png`
+
+<img width="300" src="Input Image/lena_256x256.png"/>
 
 - Resolution: **256 × 256**  
 - Format: **RGB**  
@@ -185,7 +232,21 @@ noise_add.py
 
 👉 **Output Comparison**
 
-<img width="900" src="docs/results.png"/>
+### 🔹 Original Image Processing
+
+| Input Image | Filtered Output |
+|------------|----------------|
+| <img width="250" src="Results/Original Image/lena_256x256.png"/> | <img width="250" src="Results/Original Image/lena_256x256_output.png"/> |
+
+---
+
+### 🔹 5% Salt & Pepper Noise
+
+| Noisy Input | Filtered Output |
+|------------|----------------|
+| <img width="250" src="Results/5 Percent Noise/lena_256x256.png"/> | <img width="250" src="Results/5 Percent Noise/lena_256x256_output.png"/> |
+
+---
 
 ### Generated Outputs:
 
@@ -195,7 +256,7 @@ noise_add.py
 - Noise Removed Image  
 
 ✔ Median filter successfully removes noise  
-✔ Edges are preserved  
+✔ Edges are preserved    
 
 ---
 
